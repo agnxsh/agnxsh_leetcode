@@ -6,7 +6,7 @@ public:
         unordered_set<int> set;
         int i=0;
         int j=0;
-        for(i=0,j=0;j<nums.size();j++)
+        for(j=0;j<nums.size();j++)
         {
             while(set.find(nums[j])!=set.end())
             {
