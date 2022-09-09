@@ -19,6 +19,8 @@ public:
                     return false;
                 }
                 else if(--m[cur+i]<1)
+                    //if there's only one left
+                    
                 {
                     m.erase(cur+i);
                 }
