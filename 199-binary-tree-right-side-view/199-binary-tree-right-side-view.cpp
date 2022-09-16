@@ -24,5 +24,5 @@ public:
         vector<int> res;
         recursion(root, 1,res);
         return res;
-    }
+     }
 };
