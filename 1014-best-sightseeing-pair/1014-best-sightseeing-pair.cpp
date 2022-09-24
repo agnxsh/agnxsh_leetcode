@@ -8,6 +8,7 @@ public:
         {
             ans=max(ans,maxi+A[i]-i);
             maxi=max(maxi,A[i]+i);
+            //stores the maximum value of i + i into the dp table
         }
         return ans;
         
