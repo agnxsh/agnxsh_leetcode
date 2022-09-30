@@ -11,6 +11,7 @@ public:
             {
                 int dist = ((points[i][0]-points[j][0])*(points[i][0]-points[j][0])) + ((points[i][1]-points[j][1])*(points[i][1]-points[j][1]));
                 mp[dist]++;
+                //this stores the total number of distances that are same
             }
                     for(auto i : mp)
         {
