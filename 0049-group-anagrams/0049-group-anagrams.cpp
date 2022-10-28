@@ -10,9 +10,9 @@ public:
             sort(temp.begin(),temp.end());
             mp[temp].push_back(strs[i]);            
         }
-        for (auto it: mp)
+        for (auto i: mp)
         {
-            res.push_back(it.second);
+            res.push_back(i.second);
         }
         return res;
             
